@@ -1,5 +1,6 @@
 package behavioral.observer;
 
+//具体战队控制中心类：具体的观察对象
 public class ConcreteAllyControlCenter extends AllyControlCenter {
     public ConcreteAllyControlCenter(String allName){
         System.out.println(allName+"战队组建成功！");

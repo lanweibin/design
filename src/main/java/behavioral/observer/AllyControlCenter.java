@@ -2,7 +2,7 @@ package behavioral.observer;
 
 import java.util.ArrayList;
 
-//战队控制中心类
+//战队控制中心类: 被观察的对象
 public abstract class AllyControlCenter {
     protected String allName;
     protected ArrayList<Observer> players = new ArrayList<Observer>();

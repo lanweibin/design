@@ -23,5 +23,8 @@ public class Client {
         //某成员受到攻击
         play1.beAttacked(acc);
 
+        //执行顺序
+        //play1.beAttacked() --> AllyControlCenter.notifyObserver() -->Player.help()
+
     }
 }

@@ -1,5 +1,6 @@
 package behavioral.observer;
 
+//战队成员类：具体观察者类
 public  class Player implements Observer {
     private String name;
     public Player(String name){

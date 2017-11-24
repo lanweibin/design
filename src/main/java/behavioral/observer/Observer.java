@@ -1,6 +1,6 @@
 package behavioral.observer;
 
-//抽象观察类
+//抽象观察类  观察者
 public interface Observer {
     public String getName();
     public void getName(String name);
